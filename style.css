@@ -1,0 +1,499 @@
+@media screen and (max-width:1307px) {
+    .about-me{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1528px) {
+    .home{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+body{
+    background-color: #7b9fe2;
+    font-family: 'Hind Vadodara';
+}
+.container-nav{
+    display: inline-flex;
+}
+.Nav{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 60px;
+    align-items: center;
+}
+.company-name{
+    display: flex;
+    justify-content: center;
+}
+.network-list{
+    display: flex;
+    justify-content: flex-end;
+}
+.network-list img{
+    height: 100%;
+    align-items: center;
+}
+.network-items{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-container{
+    width: 37%;
+    margin-left: 5%;
+    
+}
+.home-container h1{
+    font-size: 350%;
+}
+.home-container button{
+    background-color: #331b3b;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.second-component{
+    margin-top: 100px;
+    background-image: url("images/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+.second-component h1{
+    text-align: center ;
+}
+.second-component-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.second-component-card{
+    width: 308px;
+    height: 192px;
+    background-color: #7b9fe2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.second-component-card .img1{
+    background-color: #7b9fe2;
+    padding: 2px;
+    border-radius: 8px;
+}
+.second-component-card .img2{
+    background-color: #7b9fe2;
+    padding: 3px;
+    border-radius: 8px;
+}
+.second-component-card .img3{
+    background-color: #7b9fe2;
+    padding: 5px;
+    border-radius: 10px;
+}
+.second-component-card p{
+    font-size: 15px;
+}
+.second-component-card h2{
+    font-size: 16px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-me--component{
+    background-image: url("images/Group\ 5.png");
+    background-repeat: no-repeat;
+    background-position: center 70%;
+    background-size: 90%;
+}
+.about-me--component img{
+    width: 100%;
+}
+.about-me--second-component{
+    width: 30%;
+    padding: 20px;
+}
+.about-me--second-component button{
+    background-color: #331b3b;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+
+.recent-jobs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    margin-bottom: 100px;
+    background-image: url(images/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+}
+
+.header-recent-jobs {
+    display: flex;
+    grid-column: 1/3;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.header-recent-jobs p{
+    width: 40%;
+    margin-right: -50px;
+}
+
+.header-recent-jobs h1{
+    width: 40%;
+    margin-left: -50px;
+}
+
+
+.body-recent-jobs{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/3;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    
+    background-color: #ffff;
+    width: 430px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.card-jobs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    height: 18%;
+    
+}
+
+.card button{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 10px;
+    height: 20px;
+    margin-top: 20px;
+}
+.card h4{
+    margin-left: 30px;
+}
+
+
+@media only screen and (min-width:768px){
+    .recent-jobs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        margin-bottom: 100px;
+        background-image: url(images/Rectangle\ 13.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 100px;
+    }
+    
+    .header-recent-jobs {
+        display: flex;
+        grid-column: 1/3;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    
+    .header-recent-jobs p{
+        width: 40%;
+        margin-right: -50px;
+    }
+    
+    .header-recent-jobs h1{
+        width: 40%;
+        margin-left: -50px;
+    }
+    
+    
+    .body-recent-jobs{
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/3;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        
+        background-color: #ffff;
+        width: 430px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .card-jobs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        height: 18%;
+        
+    }
+    
+    .card button{
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 5px;
+        font-size: 10px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .card h4{
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width:480px){
+    .recent-jobs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        margin-bottom: 100px;
+        background-image: url(images/Rectangle\ 13.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 100px;
+        background-size: 3000px;
+    }
+    
+
+    .header-recent-jobs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        grid-column: 1/3;
+        grid-row: 1;
+        width: 100%;
+
+    }
+    .header-recent-jobs h1{
+        width: 100%;
+        width: 95%;
+        margin-left: 10px;
+        text-align: center;
+
+    }
+    .header-recent-jobs p{
+        width: 95%;
+        text-align: justify;
+        padding: .5em;
+        
+    }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .recent-jobs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        margin-bottom: 100px;
+        background-image: url(images/Rectangle\ 13.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 100px;
+        background-size: 3000px;
+    }
+    
+
+    .header-recent-jobs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        grid-column: 1/3;
+        grid-row: 1;
+        width: 100%;
+
+    }
+    .header-recent-jobs h1{
+        width: 100%;
+        width: 95%;
+        margin-left: 10px;
+        text-align: center;
+
+    }
+    .header-recent-jobs p{
+        width: 95%;
+        text-align: justify;
+        padding: .5em;
+        
+    }
+}
+
+.opinions{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr;
+    margin-bottom: 100px;
+}
+
+.tittle-opinions{
+    grid-column: 1/3;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards-divs{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/3;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:480px){
+    .cards-divs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .opinion-cards{
+        text-align: justify;
+        margin-bottom: 40px;
+        width: 130%;
+    
+    }
+    .opinions{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        margin-bottom: 100px;
+    }
+    
+}
+
+.opinion-cards{
+    width: 30%;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.footer-div-main{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background-image: url(images/Rectangle\ 39.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.footer-primary-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 30px;
+
+}
+
+.footer-second-div form .block{
+  grid-row: 3/5;
+}
+
+.footer-second-div form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 0.5fr);
+    gap: 30px;
+}
+.footer-second-div button{
+    background-color: orange;
+}
+
+.footer-second-div form button,
+.footer-second-div form input,
+.footer-second-div form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+}
+
+@media only screen and (max-width:480px){
+    .footer-div-main{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background-image: url(images/Rectangle\ 39.png);
+        background-size: 4000px;
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+    .footer-primary-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .footer-div-main{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background-image: url(images/Rectangle\ 39.png);
+        background-size: 4000px;
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+    .footer-primary-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+        
+    
+    }
+}
